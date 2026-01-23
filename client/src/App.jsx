@@ -2,7 +2,6 @@ import React from "react";
 import { ToastContainer } from "react-toastify";
 import "./App.css";
 import "./styles/global.css";
-import "animate.css";
 import { BrowserRouter as Router } from "react-router-dom";
 
 
