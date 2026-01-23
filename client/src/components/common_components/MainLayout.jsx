@@ -1,6 +1,6 @@
 // components/common_components/MainLayout.jsx
 import React from "react";
-import Header from "../header_components/Header";
+import Header from "../common_components/Header";
 
 const MainLayout = () => {
   return (
