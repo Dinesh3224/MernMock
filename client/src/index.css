@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+  Global scrollbar policy:
+  - Hide scrollbars visually across the app but keep scrolling enabled.
+  - Applies globally so individual components don't need to repeat logic.
+  - Works across WebKit, Firefox and IE/Edge.
+*/
+/* WebKit-based browsers */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* utility class kept for opt-in use if needed */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

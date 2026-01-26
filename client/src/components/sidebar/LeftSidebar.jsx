@@ -38,13 +38,13 @@ const LeftSidebar = () => {
       {/* Logo Section */}
       <div className="flex items-center gap-3 px-6 py-8 border-b border-gray-100">
         <div className="w-10 h-10 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0">
-          <span className="text-orange-600 font-bold text-lg">H</span>
+          <span className="text-orange-600 font-bold text-lg">S</span>
         </div>
-        <span className="text-lg font-semibold text-gray-900">Hireism</span>
+        <span className="text-lg font-semibold text-gray-900">S-vyasa</span>
       </div>
 
       {/* Navigation Menu */}
-      <nav className="flex-1 px-3 py-6 space-y-1 overflow-y-auto">
+      <nav className="flex-1 px-3 py-6 space-y-1 overflow-hidden">
         {menuItems.map((item) => {
           const Icon = item.icon;
           return (
